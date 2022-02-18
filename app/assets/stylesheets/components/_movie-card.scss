@@ -1,0 +1,13 @@
+.movie-cards {
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.movie-card {
+  height: 30vh;
+  object-fit: contain;
+}
+.movie-card img {
+  height: 100px;
+}
