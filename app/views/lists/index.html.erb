@@ -1,4 +1,10 @@
-<h1 style="margin-left: 100px">Movie Catergories List</h1>
+<h1 style="text-align: center">Movie Categories List</h1>
 <% @lists.each do |list| %>
-<ul><li><%=link_to list.name, list_path(list.id) %></li></ul>
+<ul style="list-style: none">
+  <div class="category-card">
+    <li>
+      <%=link_to list.name, list_path(list.id) %>
+    </li>
+  </div>
+</ul>
 <%end%>
